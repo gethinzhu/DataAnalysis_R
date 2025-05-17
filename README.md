@@ -46,17 +46,3 @@ Clustering was performed using **K-means** on numerical features:
 1. Open the `.Rmd` or script file in RStudio.
 2. Ensure required packages are installed.
 3. Run each section sequentially or knit to HTML/PDF.
-
-## 📺 Video Demonstration
-
-Watch a detailed explanation of the project here:  
-🔗 https://youtu.be/h-RnXlrg7k0?si=8PqhNFHcmpNfznCC
-
-## 📅 Author
-
-**Guoxing Zhu**  
-Student Number: 24308319
-
-## 📝 License
-
-This project is for academic use and demonstration purposes.
