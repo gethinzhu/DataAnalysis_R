@@ -1,14 +1,15 @@
 # RDataAnalysis
 
 This R project analyzes and models country-level data using both classification and clustering techniques. The goal is to predict and interpret death rate levels based on economic and demographic indicators.
+There is a youtube link illustrating this project: https://youtu.be/h-RnXlrg7k0
 
-## 📊 Data Sources
+## Data Sources
 
 - [Countries and death causes](https://lms.uwa.edu.au/bbcswebdav/pid-3998436-dt-content-rid-47695412_1/courses/CITS4009_SEM-2_2024/Countries%20and%20death%20causes.csv)
 - [World Bank: Population](https://data.worldbank.org/indicator/SP.POP.TOTL)
 - [World Bank: GDP per capita](https://data.worldbank.org/indicator/NY.GDP.PCAP.CD)
 
-## 🧠 Classification Methods
+## Classification Methods
 
 Three models were trained to classify whether a country's death rate is high or low:
 
@@ -22,7 +23,7 @@ Three models were trained to classify whether a country's death rate is high or 
 
 Feature importance was interpreted using **LIME**, identifying **GDP per capita** as more significant than **population**.
 
-## 🔍 Clustering Analysis
+## Clustering Analysis
 
 Clustering was performed using **K-means** on numerical features:
 
@@ -33,7 +34,7 @@ Clustering was performed using **K-means** on numerical features:
   - Average Silhouette Width (best k=2)  
   - Balanced choice: **k=3** chosen as optimal
 
-## 📦 R Packages Used
+## R Packages Used
 
 - `rpart`, `rpart.plot` — for decision tree modeling
 - `ROCR` — for AUC performance
@@ -41,7 +42,7 @@ Clustering was performed using **K-means** on numerical features:
 - `flexclust`, `fpc`, `factoextra` — for clustering
 - `ggplot2`, `dplyr` — for visualization and data wrangling
 
-## 🛠 How to Run
+## How to Run
 
 1. Open the `.Rmd` or script file in RStudio.
 2. Ensure required packages are installed.
