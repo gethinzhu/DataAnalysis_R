@@ -1,4 +1,4 @@
-# RDataAnalysis
+# R-based DataAnalysis
 
 This R project analyzes and models country-level data using both classification and clustering techniques. The goal is to predict and interpret death rate levels based on economic and demographic indicators.
 There is a youtube link illustrating this project: https://youtu.be/h-RnXlrg7k0
